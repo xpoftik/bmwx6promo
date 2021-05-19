@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    console.log("Document loaded")
+    //console.log("Document loaded")
     
     const features = document.querySelectorAll('.feature__link');
     //console.log(features)
