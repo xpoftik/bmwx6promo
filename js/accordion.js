@@ -24,7 +24,7 @@ class accordion {
 
     setActive(idx) {
         const accordionItemsCount = this.state.accordionItems.length;
-        console.log("Idx, accordionItemsCount, currentIdx: ", idx, this.state.currentIdx, accordionItemsCount)
+        //console.log("Idx, accordionItemsCount, currentIdx: ", idx, this.state.currentIdx, accordionItemsCount)
 
         if(idx >= accordionItemsCount) return;
         
